@@ -134,3 +134,607 @@ JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: 
 JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
 JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
 1616213744283	Marionette	INFO	Stopped listening on port 52321
+1616244514663	geckodriver	INFO	Listening on 127.0.0.1:53629
+1616244514672	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileSFJzOC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616244517111	Marionette	INFO	Listening on port 53634
+1616244517181	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1616244527433	Marionette	INFO	Stopped listening on port 53634
+1616244541990	geckodriver	INFO	Listening on 127.0.0.1:53783
+1616244542002	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileipsXUz"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616244544449	Marionette	INFO	Listening on port 53788
+1616244544509	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1616244597975	Marionette	INFO	Stopped listening on port 53788
+1616244611179	geckodriver	INFO	Listening on 127.0.0.1:53986
+1616244612200	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofile13JrJQ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616244614618	Marionette	INFO	Listening on port 53993
+1616244614717	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1616244639932	geckodriver	INFO	Listening on 127.0.0.1:54097
+1616244639942	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileI5FoFL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616244642641	Marionette	INFO	Listening on port 54102
+1616244642657	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:502:26\ngetGrids@resource://devtools/server/actors/layout.js:507:43\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+1616244729267	geckodriver	INFO	Listening on 127.0.0.1:54358
+1616244730288	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofilect5L0K"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616244732949	Marionette	INFO	Listening on port 54366
+1616244733013	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1616244926178	geckodriver	INFO	Listening on 127.0.0.1:54765
+1616244926186	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofile6wJFxW"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616244928849	Marionette	INFO	Listening on port 54770
+1616244928896	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1616244941908	Marionette	INFO	Stopped listening on port 54770
+1616244944308	geckodriver	INFO	Listening on 127.0.0.1:54869
+1616244944321	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofile2T87o5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616244946757	Marionette	INFO	Listening on port 54874
+1616244946829	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1616245043494	Marionette	INFO	Stopped listening on port 53993
+1616245044152	Marionette	INFO	Stopped listening on port 54102
+1616245044626	Marionette	INFO	Stopped listening on port 54366
+1616245046925	Marionette	INFO	Stopped listening on port 54874
+1616245061746	geckodriver	INFO	Listening on 127.0.0.1:55206
+1616245062755	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofilewqUPo6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616245065431	Marionette	INFO	Listening on port 55214
+1616245065468	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616245128461	geckodriver	INFO	Listening on 127.0.0.1:55492
+1616245128465	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileick6tx"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616245131050	Marionette	INFO	Listening on port 55497
+1616245131085	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616245143559	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616245177858	geckodriver	INFO	Listening on 127.0.0.1:55750
+1616245177867	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileGpkO2d"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616245180377	Marionette	INFO	Listening on port 55755
+1616245180477	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616245248131	Marionette	INFO	Stopped listening on port 55755
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370002,name=PCompositorBridge::Msg_DidComposite) Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+1616245249112	Marionette	INFO	Stopped listening on port 55497
+1616245249801	Marionette	INFO	Stopped listening on port 55214
+1616245252571	geckodriver	INFO	Listening on 127.0.0.1:56105
+1616245252583	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileu5L76J"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616245254931	Marionette	INFO	Listening on port 56110
+1616245255001	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616245323809	Marionette	INFO	Stopped listening on port 56110
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616245367130	geckodriver	INFO	Listening on 127.0.0.1:56486
+1616245367134	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileseH4ig"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616245369630	Marionette	INFO	Listening on port 56491
+1616245369739	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616245409360	geckodriver	INFO	Listening on 127.0.0.1:56705
+1616245409367	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileeyqFZq"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616245411983	Marionette	INFO	Listening on port 56710
+1616245412082	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1616245415902	Marionette	INFO	Stopped listening on port 56491
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616245430165	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616245479717	geckodriver	INFO	Listening on 127.0.0.1:56989
+1616245479721	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileVke6wY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616245482266	Marionette	INFO	Listening on port 56994
+1616245482336	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616245487968	Marionette	INFO	Stopped listening on port 56994
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616245493303	geckodriver	INFO	Listening on 127.0.0.1:57085
+1616245493308	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofilei7UFNy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616245495773	Marionette	INFO	Listening on port 57090
+1616245495813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1616245500143	Marionette	INFO	Stopped listening on port 57090
+1616245501987	Marionette	INFO	Stopped listening on port 56710
+1616245517214	geckodriver	INFO	Listening on 127.0.0.1:57222
+1616245517219	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileT5FENN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616245519799	Marionette	INFO	Listening on port 57227
+1616245519826	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616245535008	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616246032563	geckodriver	INFO	Listening on 127.0.0.1:57989
+1616246033583	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileCqUPzp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616246036187	Marionette	INFO	Listening on port 57996
+1616246036206	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616246037716	Marionette	INFO	Stopped listening on port 57996
+1616246043987	Marionette	INFO	Stopped listening on port 57227
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616246067840	geckodriver	INFO	Listening on 127.0.0.1:58191
+1616246067846	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileqkbL9x"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616246070131	Marionette	INFO	Listening on port 58196
+1616246070244	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616246081827	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1616246184701	Marionette	INFO	Stopped listening on port 58196
+1616246214711	geckodriver	INFO	Listening on 127.0.0.1:58623
+1616246214725	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileTUKA8r"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616246217327	Marionette	INFO	Listening on port 58628
+1616246217435	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616246229937	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616246237050	Marionette	INFO	Stopped listening on port 58628
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616246344272	geckodriver	INFO	Listening on 127.0.0.1:59007
+1616246344278	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileDsyt0o"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616246346794	Marionette	INFO	Listening on port 59012
+1616246346904	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616246360541	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616246373199	Marionette	INFO	Stopped listening on port 59012
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616246571294	geckodriver	INFO	Listening on 127.0.0.1:59568
+1616246571301	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileewgDN3"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616246573905	Marionette	INFO	Listening on port 59573
+1616246574025	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616246587355	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616246597602	Marionette	INFO	Stopped listening on port 59573
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616246599475	geckodriver	INFO	Listening on 127.0.0.1:59755
+1616246599489	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileKwWUhJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616246602079	Marionette	INFO	Listening on port 59760
+1616246602099	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616246611129	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616246614820	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616246667165	Marionette	INFO	Stopped listening on port 59760
+1616247002416	geckodriver	INFO	Listening on 127.0.0.1:60546
+1616247003437	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofile2xO7uy"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616247006294	Marionette	INFO	Listening on port 60554
+1616247006353	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616247059353	geckodriver	INFO	Listening on 127.0.0.1:60769
+1616247059367	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofile9RsNLP"
+1616247061065	Marionette	INFO	Stopped listening on port 60554
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616247062189	Marionette	INFO	Listening on port 60774
+1616247062307	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616247077172	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616247100210	Marionette	INFO	Stopped listening on port 60774
+1616247173751	geckodriver	INFO	Listening on 127.0.0.1:61005
+1616247173758	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileQU8Mmw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616247176252	Marionette	INFO	Listening on port 61010
+1616247176280	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616247190329	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616247202442	Marionette	INFO	Stopped listening on port 61010
+1616247311733	geckodriver	INFO	Listening on 127.0.0.1:61300
+1616247311740	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofilemQD4eM"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616247314239	Marionette	INFO	Listening on port 61305
+1616247314262	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616247327346	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616247349045	geckodriver	INFO	Listening on 127.0.0.1:61533
+1616247349052	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileb7CHc9"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616247351597	Marionette	INFO	Listening on port 61538
+1616247351652	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1616247355705	Marionette	INFO	Stopped listening on port 61305
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616247364607	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1616247386749	Marionette	INFO	Stopped listening on port 61538
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
