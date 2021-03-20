@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/stylesheet.css') }}">
+</head>
+
+<body>
+
+
+<nav class = "nav">
+<ul>
+  <li><p id="logo">ZJ</p></li>
+  <div id="nav-right">
+  <li><a href="#join" class="link">Join</a></li>
+  <li><a href="#classes" class="link">Classes</a></li>
+  <li><a href="#about" class="link">About</a></li>
+  </div>
+</ul>
+</nav>
+
+
+
+	<button type="button" id="joinButton">Join</button>
+
+
+<div id = "classes">
+	<span id="classHeaderSpan"><h2>Classes</h2></span>
+	<div id="inputs">
+		<span class="classspan" id="class1span">
+			<p>Class 1</p>
+			<input type="time" name="Time">
+			<input type="text" name="Zoom Link"> 
+		</span>
+		<span class="classspan" id="class2span">
+			<p>Class 2</p>
+			<input type="time" name="Time">
+			<input type="text" name="Zoom Link"> 
+		</span>
+		<span class="classspan" id="class3span">
+			<p>Class 3</p>
+			<input type="time" name="Time">
+			<input type="text" name="Zoom Link"> 
+		</span>
+		<span class="classspan" id="class4span">
+			<p>Class 4</p>
+			<input type="time" name="Time">
+			<input type="text" name="Zoom Link"> 
+		</span>
+	</div>
+</div>
+<div id="about">
+	<h1>About Us</h1>
+	<p>Hackathon lorem ipsum bla bla bal bal ballabalbalb</p>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script>
+	//credit to https://codemyui.com/one-pager-full-width-section-navigation/
+	$(document).ready(function() {
+
+  $('.link').on('click', function(e){
+    
+    var hash = $(this).attr('href');
+     $('html,body').animate({
+       scrollTop: $(hash).offset().top
+     }, 800);
+    
+    return false;
+  });
+});
+</script>
+</body>
+</html>
