@@ -1,0 +1,22 @@
+1616212522632	geckodriver	INFO	Listening on 127.0.0.1:65147
+1616212523374	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofilecsbXix"
+*** You are running in headless mode.
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616212529336	Marionette	INFO	Listening on port 65158
+1616212582009	geckodriver	INFO	Listening on 127.0.0.1:65327
+1616212583025	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofilevxnXtJ"
+1616212589921	geckodriver	INFO	Listening on 127.0.0.1:65382
+1616212589927	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofiley6SEUK"
+1616212613405	geckodriver	INFO	Listening on 127.0.0.1:49208
+1616212613410	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileezxDMc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616212616185	Marionette	INFO	Listening on port 49213
+1616212616246	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616212635903	geckodriver	INFO	Listening on 127.0.0.1:49306
+1616212635909	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileAXSIL7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616212638611	Marionette	INFO	Listening on port 49311
+1616212638701	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616212639686	Marionette	INFO	Stopped listening on port 49213
+1616212645359	Marionette	INFO	Stopped listening on port 49311
