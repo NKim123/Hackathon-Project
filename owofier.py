@@ -20,7 +20,7 @@ def owofier(message):
             returnMessage = returnMessage[0:IIndex] + "w" + returnMessage[IIndex+1:]
         if rIndex == -1 and lIndex == -1 and thIndex == -1 and theIndex == -1 and IIndex == -1:
             allChanged = True
-
+        print("once")
     return returnMessage
 
 owofier("46th President of the United States, husband to @FLOTUS, proud dad & pop. Tweets may be archived")
