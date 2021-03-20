@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <title>Zoom Joiner</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="swagbackground.js"></script>
+<script>
+	//credit to https://codemyui.com/one-pager-full-width-section-navigation/
+	$(document).ready(function() {
+  
+  	var seed=Math.floor(Math.random()*100000)+1000;
+	$('#Animation').attr("seed",seed);
+	console.log(seed);
+
+  $('.link').on('click', function(e){
+    
+    var hash = $(this).attr('href');
+     $('html,body').animate({
+       scrollTop: $(hash).offset().top
+     }, 800);
+    
+    return false;
+  });
+});
+</script>
+</head>
+
+<body>
+
+
+<nav class = "nav">
+<ul>
+  <li><p id="logo">ZJ</p></li>
+  <div id="nav-right">
+  <li><a href="#join" class="link">Join</a></li>
+  <li><a href="#classes" class="link">Classes</a></li>
+  <li><a href="#about" class="link">About</a></li>
+  </div>
+</ul>
+</nav>
+
+
+<div id="join"> 
+	<button type="button" id="joinButton">Join</button>
+	
+
+
+<!--Heavily modified from Ben Szabo on Codepen  -->
+<svg xmlns="http://www.w3.org/2000/svg" id="swagbackground">
+    <filter id="filter">
+        <feTurbulence id="Animation" type="fractalNoise" baseFrequency="0.001" numOctaves="2" seed="">
+         <animate id="noiseAnimate" attributeName="baseFrequency" values="0;.001;.006,0" from="0.001" to="0.001" dur="100s" repeatCount="indefinite"></animate>
+    </feTurbulence>
+        <feColorMatrix values="1 0 0 0 0
+                               0 0 1 0 0
+                               1 0 0 0 0
+                               0 0 1 0 0"/>
+        <feComponentTransfer>
+            <feFuncR type="table" tableValues="0 .02 .03 .03 .09 .12 .27 .91 .3 .03 0 0"/>
+            <feFuncG type="table" tableValues=".01 .09 .16 .18 .38 .48 .54 .73 .33 .09 .01 .01"/>
+            <feFuncB type="table" tableValues=".03 .17 .3 .25 .37 .42 .42 .6 .17 .01 0 0"/>
+        </feComponentTransfer>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#filter)"/>
+</svg>
+
+
+
+	
+</div>
+
+<div id = "classes">
+	<span id="classHeaderSpan"><h2>Classes</h2></span>
+	<div id="inputs">
+		<div class="classspan" id="class1span">
+			<p>Class 1</p>
+			<input value="09:00" type="time" name="Time" id="class1time">
+			    	<label class="field field_v2">
+    				<input class="field__input" placeholder="e.g. zoom.com/placeholder" id="class1link">
+   					<span class="field__label-wrap">
+      				<span class="field__label">Class 1 Zoom Link</span>
+    				</span>
+  				</label>
+		</div>
+		<div class="classspan" id="class2span">
+			<p>Class 2</p>
+			<input value="10:15" type="time" name="Time" id="class2time">
+			<label class="field field_v2">
+    				<input class="field__input" placeholder="e.g. zoom.com/placeholder" id="class2link">
+   					<span class="field__label-wrap">
+      				<span class="field__label">Class 2 Zoom Link</span>
+    				</span> 
+		</div>
+		<div class="classspan" id="class3span">
+			<p>Class 3</p>
+			<input value="12:20" type="time" name="Time" id="class3time">
+			<label class="field field_v2">
+    				<input class="field__input" placeholder="e.g. zoom.com/placeholder" id="class3link">
+   					<span class="field__label-wrap">
+      				<span class="field__label">Class 3 Zoom Link</span>
+    				</span> 
+		</div>
+		<div class="classspan" id="class4span">
+			<p>Class 4</p>
+			<input value="13:30" type="time" name="Time" id="class4time">
+			<label class="field field_v2">
+    				<input class="field__input" id="class4link" placeholder="e.g. zoom.com/placeholder">
+   					<span class="field__label-wrap">
+      				<span class="field__label">Class 4 Zoom Link</span>
+    				</span>
+		</div>
+		<button type="button" id="submitButton">Lock In</button>
+	</div>
+</div>
+<div id="about">
+	<span id="AboutUsWrapper"><h2>About Us</h2>
+	<p>We are 4 aspiring programmers from Winston Churchill High in Montgomery County, Md. We made this project in 36 hours for the Mocohacks project.</p>
+	</span>
+</div>
+
+
+
+</body>
+</html>
