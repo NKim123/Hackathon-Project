@@ -1,22 +1,24 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
+import pyautogui
 
 import time
 
 def JoinZoom(link):
     username = "244388@mcpsmd.net"
     password = "asdfghjkl;'"
-    chrome_options = Options()
-    chrome_options.add_argument("--disable-user-media-security=true")
-    browser = webdriver.Chrome("/Users/noahkim/Documents/chromedriver", options=chrome_options)
+    browser = webdriver.Chrome("/Users/noahkim/Documents/chromedriver")
+    #chrome_options = webdriver.ChromeOptions()
+    #chrome_options.add_argument("--disable-default-apps")
+    #browser = webdriver.Chrome("/Users/noahkim/Documents/chromedriver", options=chrome_options)
 
     #email
     browser.get("https://accounts.google.com/Login")
     usernameBox = browser.find_element_by_css_selector("#identifierId")
     usernameBox.send_keys(username)
     usernameBox.send_keys(Keys.ENTER)
-    time.sleep(1.5)
+    time.sleep(2)
     #password
     passwordBox = browser.find_element_by_css_selector("#password > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)")
     passwordBox.send_keys(password)
@@ -34,8 +36,19 @@ def JoinZoom(link):
     browser.execute_script("window.open('');")
     browser.switch_to.window(browser.window_handles[2])
     browser.get(link)
-    alert = wait.until(expected_conditions.alert_is_present())
     
+    time.sleep(2)
+    print("something")
+    buttonLoc = pyautogui.locateOnScreen('openzoom.png')
+    print(buttonLoc)
+    print("something2")
+    pyautogui.Click(buttonLoc)
+
+    '''
+    I want it to accept the dialogue box here
+    '''
+
+    #this is just to keep the window open for now
     while(True):
        pass
 
