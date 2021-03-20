@@ -20,3 +20,117 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1616212638701	Marionette	WARN	TLS certificate errors will be ignored for this session
 1616212639686	Marionette	INFO	Stopped listening on port 49213
 1616212645359	Marionette	INFO	Stopped listening on port 49311
+1616212891035	geckodriver	INFO	Listening on 127.0.0.1:49810
+1616212891040	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofile3NyJ6P"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616212893449	Marionette	INFO	Listening on port 49815
+1616212893544	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616212927201	geckodriver	INFO	Listening on 127.0.0.1:49957
+1616212928225	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofile3H33Ci"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616212930900	Marionette	INFO	Listening on port 49964
+1616212930947	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616212946826	Marionette	INFO	Stopped listening on port 49964
+1616212949191	geckodriver	INFO	Listening on 127.0.0.1:50054
+1616212949197	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileCo4H9N"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616212951699	Marionette	INFO	Listening on port 50059
+1616212951800	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616212958878	Marionette	INFO	Stopped listening on port 50059
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616213228041	geckodriver	INFO	Listening on 127.0.0.1:50601
+1616213229057	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileQwCbxm"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616213231690	Marionette	INFO	Listening on port 50609
+1616213231777	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+1616213272719	geckodriver	INFO	Listening on 127.0.0.1:50770
+1616213273741	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofile4V1SSl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616213276351	Marionette	INFO	Listening on port 50777
+1616213276455	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616213278293	Marionette	INFO	Stopped listening on port 50609
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1616213425131	geckodriver	INFO	Listening on 127.0.0.1:51116
+1616213425136	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileXgeDE2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616213428205	Marionette	INFO	Listening on port 51121
+1616213428263	Marionette	WARN	TLS certificate errors will be ignored for this session
+1616213525957	Marionette	INFO	Stopped listening on port 50777
+1616213527311	Marionette	INFO	Stopped listening on port 51121
+1616213530838	geckodriver	INFO	Listening on 127.0.0.1:51362
+1616213531848	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofilef7xHp7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616213534589	Marionette	INFO	Listening on port 51369
+1616213534660	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5C000D,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6C0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1616213547917	Marionette	INFO	Stopped listening on port 51369
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616213579258	geckodriver	INFO	Listening on 127.0.0.1:51567
+1616213579263	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileOg539o"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616213582189	Marionette	INFO	Listening on port 51572
+1616213582284	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.google.com"
+1616213600683	geckodriver	INFO	Listening on 127.0.0.1:51740
+1616213600689	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofile0zr86X"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616213603431	Marionette	INFO	Listening on port 51745
+1616213603507	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1616213635091	geckodriver	INFO	Listening on 127.0.0.1:51933
+1616213635096	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofileaCTfuN"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616213638076	Marionette	INFO	Listening on port 51938
+1616213638101	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1616213646619	Marionette	INFO	Stopped listening on port 51745
+1616213648528	Marionette	INFO	Stopped listening on port 51938
+1616213649967	Marionette	INFO	Stopped listening on port 51572
+1616213683599	geckodriver	INFO	Listening on 127.0.0.1:52115
+1616213683606	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofile2DLIGJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616213686446	Marionette	INFO	Listening on port 52120
+1616213686510	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+JavaScript warning: https://st3.zoom.us/static/94162/js/app/vue/confirmSignUpWithAgeDialog.min.js, line 1: unreachable code after return statement
+1616213710698	Marionette	INFO	Stopped listening on port 52120
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616213722423	geckodriver	INFO	Listening on 127.0.0.1:52316
+1616213722429	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/fv/dqm_2_rx2530pv88jrgdw07w0000gn/T/rust_mozprofilesfQgUJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616213725135	Marionette	INFO	Listening on port 52321
+1616213725251	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 190: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1616213744283	Marionette	INFO	Stopped listening on port 52321
