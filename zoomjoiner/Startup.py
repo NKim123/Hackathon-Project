@@ -6,10 +6,12 @@ app = Flask(__name__)
 def home():
     return render_template("JoinPage.html")
 
-@app.route("/", method = ['GET'])
+@app.route("/", methods = ['POST'])
 def data(): 
-    if request.method == 'GET':
+    if request.method == 'POST':
         print('worked')
+        return render_template("JoinPage.html")
+
 
 if __name__=="__main__":
     app.run(debug=True)
