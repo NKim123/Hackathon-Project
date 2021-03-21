@@ -1,7 +1,7 @@
 from flask import Flask, redirect, url_for, render_template, request
 from ChromeJoinZoom import JoinZoom
 from selenium.webdriver import Chrome
-
+from selenium import webdriver
 app = Flask(__name__)
 userInfo = None
 
@@ -15,7 +15,7 @@ def data():
         print('worked')
         userInfo = request.form
         print(userInfo)
-        driver = Chrome("/Users/noahk/Documents/GitHub/Hackathon-Project/chromedriver")
+        driver = webdriver.Chrome("C:/Users/mikim/OneDrive/Documents/GitHub/Hackathon-Project/zoomjoiner/attempt1/chromedriver.exe")
         driver.get("https://google.com")
         return render_template("Success.html")
 
