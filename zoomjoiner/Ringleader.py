@@ -8,7 +8,7 @@ class Ringleader:
     def __init__(self, userInput):
         self.userInput = userInput
         for i in range(4):
-            currentInput = userInput[f"class{i}time"]
+            currentInput = userInput[f"class{i + 1}time"]
             timerArray.append[Timer()]
 
 
