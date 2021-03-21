@@ -7,4 +7,4 @@ def home():
     return render_template("JoinPage.html")
 
 if __name__=="__main__":
-    app.run()
+    app.run(debug=True)
