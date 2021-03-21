@@ -11,8 +11,6 @@ def home():
     return render_template("JoinPage.html")
 
 
-
-
 @app.route("/", methods = ['POST'])
 def data(): 
     if request.method == 'POST':
@@ -21,8 +19,8 @@ def data():
         print(userInfo)
         smile=Ringleader.prettywebpage()
         ringleader=Ringleader(userInfo)
-
-
+        return render_template("Success.html")
+        
 def smiles():
 	return render_template("Success.html");
         

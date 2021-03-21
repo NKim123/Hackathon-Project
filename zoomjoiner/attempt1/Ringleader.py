@@ -23,10 +23,12 @@ class Ringleader:
             timer =Timer(timeInput)
             print("URMOMRUMOMRURMOMRURMOM")
             time.sleep(timer.getSeconds()-55)
-            driver = webdriver.Chrome("C:/Users/mikim/OneDrive/Documents/GitHub/Hackathon-Project/zoomjoiner/attempt1/chromedriver.exe")
-       
+            JoinZoom(link,"244388", "nhEC@rr3G.5ZCC%")
+            '''
+            driver = webdriver.Chrome("C:/Users/noahk/Documents/GitHub/Hackathon-Project/zoomjoiner/attempt1/chromedriver.exe")
             print(link)
             driver.get(link)
+            '''
     def prettywebpage():
         return render_template("Success.html");
 '''
