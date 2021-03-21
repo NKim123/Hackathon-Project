@@ -1,6 +1,7 @@
 from flask import Flask, redirect, url_for, render_template, request
 
 app = Flask(__name__)
+userInfo = None
 
 @app.route("/")
 def home():
@@ -10,7 +11,7 @@ def home():
 def data(): 
     if request.method == 'POST':
         print('worked')
-        return render_template("JoinPage.html")
+        userInfo = request.form
 
 
 if __name__=="__main__":
