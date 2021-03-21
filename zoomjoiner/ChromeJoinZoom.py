@@ -9,6 +9,8 @@ import time
 def JoinZoom(link, username, password):
 
     currentFolder = os.getcwd()
+    print(currentFolder)
+    print("HERE\n\n\n\n\n")
     browser = webdriver.Chrome(f"{currentFolder}/chromedriver")
 
     # email
