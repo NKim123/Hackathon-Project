@@ -1,17 +1,37 @@
 
 from Timer import Timer
+<<<<<<< HEAD
+=======
+import time
+from ChromeJoinZoom import JoinZoom
+from selenium.webdriver import Chrome
+from selenium import webdriver
+from flask import Flask, redirect, url_for, render_template, request
+>>>>>>> f1228e2b68a7e967c1e10bd883c2f9fd5e14d3c4
 
 class Ringleader:
     userInput = None
-    timerArray = []
+    
 
     def __init__(self, userInput):
+        timer = None
+        link = None
         self.userInput = userInput
+
         for i in range(4):
-            currentInput = userInput[f"class{i + 1}time"]
-            timerArray.append[Timer()]
-
-
+            timerCounter=i+1
+            timeInput = userInput[f"{timerCounter}Time"]
+            linkCounter=i+1
+            link = userInput[f"{linkCounter}Link"]
+            timer =Timer(timeInput)
+            print("URMOMRUMOMRURMOMRURMOM")
+            time.sleep(timer.getSeconds()-55)
+            driver = webdriver.Chrome("C:/Users/mikim/OneDrive/Documents/GitHub/Hackathon-Project/zoomjoiner/attempt1/chromedriver.exe")
+       
+            print(link)
+            driver.get(link)
+    def prettywebpage():
+        return render_template("Success.html");
 '''
 
 if join button pressed:
