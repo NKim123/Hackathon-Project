@@ -9,21 +9,31 @@ class Timer:
     def __init__(self, target):
         currentTime = datetime.now()
         now_str = currentTime
+        now_str = str(now_str)
+        now_str=(now_str[11:16])
         now = datetime.strptime(now_str, '%H:%M')
         
-        then_str = target.strftime("%H:%M")
+        
+        then_str = target
         then = datetime.strptime(then_str, '%H:%M')
         time_delta= (then-now)
         total_seconds = time_delta.total_seconds()
+        print(total_seconds)
+
+        
+        if total_seconds > 56:
+            self.remaining = total_seconds
+        else:
+            self.remaining = 55;
 
 
         
-        if self.total_seconds > 0:
-            self.remaining = total_seconds
-        print(self.remaining)
+    def getSeconds(self):
+        return self.remaining
 
     def end():
         if currentTime > target:
             return True
         else:
+            currentTime = datetime.now()
             return False
