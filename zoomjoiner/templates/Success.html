@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		body {
+			overflow:hidden;
+		}
+	#swagbackground {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+    z-index:-5;
+	}
+	#box {
+		position:absolute;
+		width:100%;
+		height:20%;
+		top:10%;
+
+	}
+	h1 {
+		color:white;
+		text-align:center;
+		font-size:8rem;
+		font-weight:600;
+		font-family:sans-serif;
+	}
+	h3 {
+		color:white;
+		text-align:center;
+		font-size:2rem;
+		font-weight:400;
+		font-family:sans-serif;
+	}
+
+	</style>
+</head>
+<body>
+<svg xmlns="http://www.w3.org/2000/svg" id="swagbackground">
+    <filter id="filter">
+        <feTurbulence id="Animation" type="fractalNoise" baseFrequency="0.001" numOctaves="0.1" seed="mocohacksftw">
+         <animate id="noiseAnimate" attributeName="baseFrequency"  values="0.000025;0.001;0.000025" dur="10s" repeatCount="indefinite"></animate>
+         
+    </feTurbulence>
+        <feColorMatrix values="1 1 1 0 1
+                               1 1 1 0 1
+                               0 0 0 0 0
+                               0 0 1 0 0.25"/>
+        <feComponentTransfer>
+            <feFuncR type="table" tableValues="0 .72 .53 .63 .49 .62 .27 .21 .3 .83 0.2 0"/>
+            <feFuncG type="table" tableValues=".00 .12 .08 .22 .37 .04 .00 .32 .24 .27 .04 .01"/>
+            
+        </feComponentTransfer>
+    </filter>
+    <rect width="100%" height="100%" filter="url(#filter)"/>
+</svg>
+<div id="box">
+<h1 id="completionmsg">Your Zoom classes are all set up! Have fun :)</h1>
+<h3 id="closetabwarning">Don't close this tab :p</h3>
+</div>
+</body>
+</html>
