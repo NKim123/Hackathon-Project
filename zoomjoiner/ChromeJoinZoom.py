@@ -49,5 +49,3 @@ def JoinZoom(link, username, password):
         time.sleep(3)
     return
 
-
-JoinZoom("https://mcpsmd.zoom.us/j/97130321813?pwd=cW9tYU9wVjV5c3hKbEZsU0FwalAxUT09", "244388@mcpsmd.net", "asdfghjkl;'")
