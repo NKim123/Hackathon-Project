@@ -10,16 +10,22 @@ userInfo = None
 def home():
     return render_template("JoinPage.html")
 
+
+
+
 @app.route("/", methods = ['POST'])
 def data(): 
     if request.method == 'POST':
         print('worked')
         userInfo = request.form
         print(userInfo)
+        smile=Ringleader.prettywebpage()
         ringleader=Ringleader(userInfo)
-        driver = webdriver.Chrome("C:/Users/mikim/OneDrive/Documents/GitHub/Hackathon-Project/zoomjoiner/attempt1/chromedriver.exe")
-        driver.get("https://google.com")
-        return render_template("Success.html")
+
+
+def smiles():
+	return render_template("Success.html");
+        
 
 if __name__=="__main__":
     app.run(debug=True)
