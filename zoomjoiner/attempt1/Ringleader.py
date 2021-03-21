@@ -1,5 +1,5 @@
 
-from zoomjoiner.Timer import Timer
+from Timer import Timer
 
 class Ringleader:
     userInput = None
