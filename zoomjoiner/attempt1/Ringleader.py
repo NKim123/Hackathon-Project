@@ -1,16 +1,19 @@
 
-from zoomjoiner.Timer import Timer
+from Timer import Timer
 
 class Ringleader:
     userInput = None
-    timerArray = []
+    
 
     def __init__(self, userInput):
+        timerArray = []
         self.userInput = userInput
-        for i in range(4):
-            currentInput = userInput[f"class{i + 1}time"]
-            timerArray.append[Timer()]
-
+        for i in range(8):
+            x=int((int(i)/2)+1)
+            currentInput = userInput[f"{x}Time"]
+            timerArray.append[Timer(currentInput)]
+            i=i+1
+        print(timerArray)
 
 '''
 
